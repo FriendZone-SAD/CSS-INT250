@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    padding: 10px;
+    gap: 20px;
+}
+
+.buttonContainer {
+    display: flex;
+    gap: 20px;
+}

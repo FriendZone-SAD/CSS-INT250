@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Unit Conversions</title>
+</head>
+
+<body>
+    <section id="home">
+        <nav>
+            <h1><b>Unit Conversions</b></h1>
+            <div class="topdiv">
+                <a href="#temperature" class="topmenu">Temperature</a>
+                <a href="#weight" class="topmenu">Weight</a>
+                <a href="#distance" class="topmenu">Distance</a>
+            </div>
+        </nav>
+    </section>
+    <div id="conversions">
+        <section id="temperature" class="b temperature">
+            <div id="tmp">
+                <figure>
+                    <img src="termo.png" width="200px" alt="Thermometer">
+                    <figcaption>Celsius to Fahrenheit Conversion</figcaption>
+                </figure>
+                <article>
+                    <fieldset>
+                        <legend>Temperature</legend>
+                        <label for="celsius">Celsius:</label><br>
+                        <input type="number" id="celsius" name="celsius" placeholder="Enter Celsius"><br>
+
+                        <button id="convertTemp">Convert</button><br>
+
+                        <input type="number" id="fahrenheit" name="fahrenheit" placeholder="Result in Fahrenheit"
+                            readonly><br>
+                        <label for="fahrenheit">Fahrenheit:</label>
+                    </fieldset>
+                </article>
+                <aside>
+                    <p>To convert Celsius to Fahrenheit yourself, use this formula replacing the 'C' with your
+                        temperature in celsuis: (C x 9/5) + 32</p>
+                </aside>
+            </div>
+        </section>
+        <section id="weight" class="b weight">
+            <div id="wgt">
+                <figure>
+                    <img src="weight.png" width="200px" alt="Weight Scale">
+                    <figcaption>Kilograms to Pounds Conversion</figcaption>
+                </figure>
+                <article>
+                    <fieldset>
+                        <legend>Weight</legend>
+                        <label for="kilograms">Kilograms:</label><br>
+                        <input type="number" id="kilograms" name="kilograms" placeholder="Enter Kilograms"><br>
+
+                        <button id="convertWeight">Convert</button><br>
+
+                        <input type="number" id="pounds" name="pounds" placeholder="Result in Pounds" readonly><br>
+                        <label for="pounds">Pounds:</label>
+                    </fieldset>
+                </article>
+                <aside>
+                    <p>To convert Kilograms to Pounds yourself, use this formula replacing the 'kg' with your weight in
+                        kilograms: kg x 2.205</p>
+                </aside>
+            </div>
+        </section>
+        <section id="distance" class="b distance">
+            <div id="dst">
+                <figure>
+                    <img src="speedo.png" width="200px" alt="Speedometer">
+                    <figcaption>Kilometer to Mile Conversion</figcaption>
+                </figure>
+                <article>
+                    <fieldset>
+                        <legend>Distance</legend>
+                        <label for="kilometers">Kilometers:</label><br>
+                        <input type="number" id="kilometers" name="kilometers" placeholder="Enter Kilometers"><br>
+
+                        <button id="convertDistance">Convert</button><br>
+
+                        <input type="number" id="miles" name="miles" placeholder="Result in Miles" readonly><br>
+                        <label for="miles">Miles:</label>
+                    </fieldset>
+                </article>
+                <aside>
+                    <p>To convert Kilometers to Miles yourself, use this formula replacing the 'km' with your distance
+                        in kilometers: km ÷ 1.609</p>
+                </aside>
+            </div>
+        </section>
+    </div>
+    <div id="go-home" class="iconbutton">
+        <a href="#home">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+            </svg>
+        </a>
+    </div>
+    <footer>Learn more about HTML/CSS/JS as a part of INT250 CSS Framework</footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
