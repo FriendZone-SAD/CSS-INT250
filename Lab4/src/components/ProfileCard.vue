@@ -7,8 +7,8 @@ defineProps([
     "followers",
     "following",
     "projects",
-    "facebook",
     "instagram",
+    "facebook",
     "linkedin",
 ]);
 </script>
@@ -56,7 +56,7 @@ defineProps([
             class="p-6 border-t border-gray-200 flex items-center justify-center gap-8"
         >
             <div>
-                <a :href="facebook" target="_blank" rel="noopener noreferrer"
+                <a :href="instagram" target="_blank" rel="noopener noreferrer"
                     ><svg
                         width="40px"
                         height="40px"
@@ -93,7 +93,7 @@ defineProps([
             </div>
 
             <div>
-                <a :href="instagram" target="_blank" rel="noopener noreferrer"
+                <a :href="facebook" target="_blank" rel="noopener noreferrer"
                     ><svg
                         width="40px"
                         height="40px"
