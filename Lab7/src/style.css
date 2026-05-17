@@ -45,7 +45,7 @@
   }
  
   .feature-icon-wrapper {
-    @apply flex items-center justify-center h-24 mb-6;
+    @apply flex items-center justify-center h-full;
   }
  
   .feature-title {
@@ -54,5 +54,9 @@
  
   .feature-description {
     @apply max-w-md;
+  }
+
+  .footer-icon {
+    @apply bg-darkBlue-03 p-1 rounded-full w-fit h-fit
   }
 }
