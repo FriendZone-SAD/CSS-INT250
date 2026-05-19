@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer components {
+  .layout-bg {
+    background-color: #f0f9ff;
+    color: #0f172a;
+  }
+  .card-bg {
+    background-color: #ffffff;
+    border: 1px solid #e0f2fe;
+  }
+  .text-accent {
+    color: #0ea5e9;
+  }
+  .bg-accent {
+    background-color: #38bdf8;
+    color: #ffffff;
+  }
+  .bg-accent-hover:hover {
+    background-color: #0284c7;
+  }
+  .text-subtle {
+    color: #475569;
+  }
+  .border-accent {
+    border-color: #bae6fd;
+  }
+  .border-accent-hover:hover {
+    border-color: #38bdf8;
+  }
+}
